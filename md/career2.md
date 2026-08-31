@@ -1,0 +1,14 @@
+- 利用mysql-connector-python
+   - 連接資料庫
+   - 位置localhost
+   - 帳號 root
+   - 密碼 12345678
+   - 資料庫 nba
+-pandas   
+  - 讀取 career_summaries and players 兩張table
+  - 兩個表用 personId進行 join
+  - plotly 畫 scatter
+  - x 欄位用 ppg
+  - y 欄位用 rpg
+  - color  用欄位 pos
+  - 最後fig.show()

@@ -1,0 +1,9 @@
+- 利用mysql-connector-python
+   - 連接資料庫
+   - 位置localhost
+   - 帳號 root
+   - 密碼 12345678
+   - 資料庫 nba
+-pandas   
+  - 讀取 players table 全部資料
+  - 存成 data/player.csv

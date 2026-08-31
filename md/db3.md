@@ -1,0 +1,13 @@
+- 利用mysql-connector-python
+   - 連接資料庫
+   - 位置localhost
+   - 帳號 root
+   - 密碼 12345678
+   - 資料庫 nba
+-pandas   
+  - 讀取 career_summaries and players 兩張table
+    - 兩個表用 personId進行 join
+    - 根據firstName 找['LeBron',' Carmelo']  
+  - plotly 畫 line_polar
+      - 數值 ppg rpg apg bpg mpg
+  - 最後fig.show()
